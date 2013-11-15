@@ -27,7 +27,7 @@
 #input {
   position: absolute;
   bottom: 0;
-  width: 50%;
+  width: 90%;
   margin-left: 5%;
 }
 
@@ -39,6 +39,20 @@
   word-wrap: break-word;
   border-top: 1px solid #eee;
   padding: 6px 0 6px 0;
+  display: table;
+  width: 100%;
+}
+
+.message .nick {
+  display: table-cell;
+  background-color: #fff;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.message .pull-right {
+  font-size: 10px;
 }
 
 #dropdown-buffers {
